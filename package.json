@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "populate": "node src/populate.js",
+    "server": "node src/server.js"
   },
   "author": "Markus Sandén",
   "license": "ISC",
