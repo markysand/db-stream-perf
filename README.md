@@ -26,3 +26,9 @@
     ab -n 1000 -c 100 "localhost:3001/plain/2000"
 
     ab -n 1000 -c 100 "localhost:3001/stream/2000"
+
+### Profiling
+
+Instead use
+
+    npm run server:prof

@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "populate": "node src/populate.js",
-    "server": "node src/server.js"
+    "server": "node src/server.js",
+    "server:prof": "node --prof src/server.js"
   },
   "author": "Markus Sandén",
   "license": "ISC",
